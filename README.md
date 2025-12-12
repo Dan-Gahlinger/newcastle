@@ -1,10 +1,7 @@
 
-The New Castle V22.2c-pre (v22.2c prerelease) - Released Nov 6/2022
+The New Castle V26 - Released Nov 6/2022
 
-The LINUX version of the new castle is the same code as the DOS/Windows version, may have many bugs!
-please report errors.  The debugging mode has been left intact in order to facility this...
-
-**** As this is a "pre-release" - I am *ONLY* interested in showstoppers! ****
+The LINUX version of the new castle is the same code as the DOS/Windows version
 
 HINT command has been re-added, but it's all covered in the docs, user guide, intro and instructions, so not necessary.
 
@@ -34,6 +31,6 @@ there is an EXE installer (with built-in uninstaller) - and also this version as
 then there are two "plain" versions - as RAR or as ZIP - again pick your preference.
 The plain versions uncompress and create a "newcastle" directory with everything in it but have no desktop shortcut or uninstaller.
 
-Note: I am very close to getting the Raspberry Pi (Arm) version of Castle completed and it'll be posted when ready
+Raspberry Pi (Arm) version of Castle completed and is now available!
 
 See the castle_user_guide.pdf for more information on the game
