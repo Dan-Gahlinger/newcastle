@@ -1,5 +1,5 @@
 
-The New Castle V26 - Released Nov 6/2022
+The New Castle V26 - Released Feb 22/2024
 
 The LINUX version of the new castle is the same code as the DOS/Windows version
 
