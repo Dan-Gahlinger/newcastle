@@ -1,0 +1,163 @@
+                         The New Castle
+                         ~~~~~~~~~~~~~~
+                           Version 26
+                    Written By: Dan Gahlinger
+                    Copyright (c) 1990-2025 By:
+                         Dan Gahlinger
+                     Software Customization
+                      All Rights Reserved
+
+    It is said that there is an Old Castle nearby where long lost treasures
+lay in wait of a Brave Knight to uncover them and find his fortune.
+
+That is all there is as far as instructions go, the help file follows thusly:
+
+==============================================================================
+When you type in a move, I only look at the first five letters of the first
+two words.  To move to another location, type the first letter of the
+direction (eg: N-North) or the whole word if you wish.
+
+I have a fairly broad (no pun intended) vocabulary, so if you get into
+trouble, just keep trying different words.  The first word should be a verb
+and the second an object or noun.
+
+'HELP' will print this out again,
+'SCORE' will print your score, and
+'QUIT' will end the game.
+==============================================================================
+
+There is very little advice I can offer, you mostly have to figure out the
+mystery yourself.  The best advice I can give is to keep your commands as
+simple as possible.  The parser has been mostly confined to cover those things
+that directly involve the game, if a command does not fit (even loosely) the
+game will give you a message along the lines of "I don't understand that".
+The only other piece of advice I can think of is to tell you not to bother
+even attempting to map the maze.  Yes, there is a maze within the game, but it
+has been constructed randomly, not only is each game different (the maze is
+not constructed at the beginning of each play, but is however dynamically made
+AS YOU PLAY, move for move.  Not to worry, there is a solution, which remains
+fixed every game, it was calculated randomly as well, but at least it stays
+fixed and is the same every play.  There are also two other methods of getting
+out of the maze.  Since there is a fixed path, during your travels randomly
+moving throughout the maze, it is possible to "get back on track", that is,
+you can still exit via the fixed route from the current route onward if the
+room you are in is part of the exit path.  This also allows for the psuedo-
+random exit path which can also be used to exit.
+
+What is the purpose, or goal of the game?  Why, to find all the treasures of
+course!  The maximum score is 590, at the moment, you are not penalized very
+much for excess moves (I don't want to make it too hard, especially if you
+get lost in the maze), so the goal is to enjoy yourself, mapping the castle is
+a good idea, find all the treasure, and figure out the big mystery, coming as
+close to 590 as possible.
+
+There are a few added commands which may come in handy, they are:
+
+BRIEF   - Puts the game in brief mode (no room descriptions, etc)
+VERBOSE - Puts the game in verbose mode (rooms always described, etc)
+MODE    - Will switch between brief/verbose modes
+HINT    - Gives you a hint (somewhat checks solvability, etc) - DRAW A MAP!!!
+SAVE    - Save current game for later restore (handy!)
+LOAD/RESTORE - Restores a saved game (save game files are about 2K in size)
+          save and restore cannot be accessed within the maze, also cannot
+          be accessed during the end-game, also not during certain other
+          special encounters
+RESTART - Will restart the game from scratch. Alternately you can use the
+          LOAD/RESTORE position #6, but subject to conditions above
+TOP TEN - Displays the top ten players list (win and get your name on it)
+L/LOOK/EXAM/EXAMINE-Display verbose room contents when used alone
+LOOK    - Works the same as examine (see below) when used as a complete command
+EXAMINE - I've added the ability to examine (exam) objects within the game.
+          Note that this applies ONLY to items, not treasures, and you must be
+          carrying the item to examine it.  There are also four stationary
+          objects within the game that you can examine (one is the snake pit,
+          another object you can Look at is the tree).
+
+I've also found a few people (my playtesters) had problems finding The Castle
+or getting to it in the first place.  So if you get stuck trying to figure out
+how to get in, and everything seems hopeless, enter and leave the shack a few
+times, after you've visited it about 20 times, there is a 80% chance the
+game will give you a very useful hint...
+
+More hints: Don't even THINK about trying to map the maze. I think I said this
+already... :)  Also, the game as of v3.0 added a new "probability generator"
+which is 100% accurate, and used for many (many) parts of the game now...
+
+I've added a new "fun" command "/say" to the command line, which will allow you
+to go through the various sayings (over 5,400 currently) without playing.
+
+In an effort to make the game more "fun", multitudes of things have been added.
+On top of "easter eggs" galore, miscellaneous messages and various referrences
+have been added to the game. Everything from...
+
+Douglas Adams (including rare stuff you won't (and can't) find ANYWHERE else!),
+Japanese Animation (anime),
+Sierra Online (uh I hope they don't mind),
+a BBS that shall remain nameless and dear to our hearts (RIP 1998),
+Star Trek (the original series),
+Ren & Stimpy,
+Dr. Who (Tom Baker of course!),
+Space 1999 (shudder),
+Buck Rogers,
+Babylon5!,
+the best damn trek game ever made (Trek7 - thanks Don Ecclestone!),
+Monty Python,
+Blake & Mortimer,
+also in memory of James Blish (star trek novels),
+also in memory of Deforest Kelley (Dr. McCoy - star trek),
+also in memory of James Doohan (Scotty - star trek),
+also in memory of Leonard Nimoy (Mr. Spock - star trek),
+also in memory of Nichelle Nichols (Uhura - star trek),
+Animaniacs,
+Pinky & the Brain,
+Red Dwarf,
+Blake's 7,
+Neuromancer (William Gibson),
+Various in-jokes (Unix, Vax, C64, Linux, Amiga, etc),
+Eric Swartz (Amy the Squirrel),
+Disney (heh),
+Max Headroom,
+Rick & Morty! (100 Years!)
+Hitchhikers Guide to the Galaxy (ok, ok!),
+and even more, and also over 5000 more references I can no longer remember!
+
+Quotes from Anime series included (but not limited to):
+Project A-Ko, Urusei Yatsura, Maison Ikkoku, Kimagure Orange Road, Dirty Pair
+Ghost in the Shell, Patlabor, Ranma, Cat System 86, TTS Airbats, Aika, Tenchi,
+Photon, Vampire Princess Miyu, Lupin, Sol Bianca, Miyazaki!, and many more
+
+The New Castle v4.0 (developmental) was created on an IBM Compatible 486DX50Mhz
+using Turbo Pascal v7.01, somewhat translated from the Fortran/IV/F77 Version,
+we had none of the original source code to convert, this entire game was done
+from memory (some of us are blessed with photographic memories), as well as
+transcripts of past games (somewhat).  The New Castle requires about 2.0MB of
+disk space (plus space for save games), and a standard IBM Compatible using
+MS Dos v3.3 or higher, monochrome or higher graphics, and a minimum 300k Ram.
+A far cry from most new games requiring pentium-IVs or Vs and gigs of space..
+
+Send me any ideas, suggestions or problems (with suggestive solutions) to me
+at my address below.  For those wanna-be or die-hard hackers out there, yes,
+I've left the 'debugging' modes intact in the game, you just have to find it.
+I am always looking for comments or constructive criticism, and leaving the
+special mode in should help decrease any future bugs (there are no known
+bugs within the current version, but then this hasn't been circulated much).
+
+One final note: the game does self-crc checking to prevent virus contamination
+or other corruption.  If the game detects a change within itself, it will not
+execute, this is to safe-guard your system.  If this happens, just re-install
+the game from the original (safegaurded) backup.
+
+As of Castle v4.0 it is *FULLY* Y2K Compliant! (whoo!) :)
+(In case you missed the joke here, there is NO date-checking code!)
+
+Castle was first written by: Barry Wilks on a VAX/VMS Computer System at the
+University of Western Ontario, back some time around 1978.  According to the
+information I have available, the original program was written in VMS Fortran
+but the project was never completed.  I have taken great pains to see that
+this program was duplicated in every detail, including the kludges.  I have
+completed the original adventure game, in the only manner that seemed possible
+and spent several months trying all possible combinations.  This is one reason
+I believe the project was left incomplete, as there were a lot of unexplained
+parts, be that as it may, it is represented here for your enjoyment.
+You can send mail via the InterNet at dan@zerofusion.com or check out our web site at
+https://zerofusion.com/newcastle for new updated versions.

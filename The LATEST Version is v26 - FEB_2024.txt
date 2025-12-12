@@ -1,0 +1,26 @@
+
+
+The LATEST Version is v26 - FEB_2024
+
+New_Castle_Linux_v26.zip - for Linux AMD x86 64bit - creates "castle" directory
+New_Castle_Mac_Intelx86_v26.zip - for Intel (x86, 64bit) Mac - will NOT work on M1/M2/M3/M4/PPC
+New_Castle_RPI_3B_v26.zip - for Raspberry Pi 3B (Arm) - I am unaware of whether this will work on other Pi versions, Please report if it does
+New_Castle_v26_Install.exe - Installer for Dos/Windows
+New_Castle_v26_Install.zip - Installer for Dos/Windows zip
+New_Castle_v26_Update.zip << - this will update your existing v22.2c_pre to v26 - for any still using the old version or just reinstall
+New_Castle_v26_plain.zip - Dos/Windows contains c:\castle just unzip in c:\
+readme_ver26.txt - text readme file
+
+Dos/Windows - run newcast.exe
+Linux - run newcast_linux
+Mac - run newcast_mac
+Rpi - run newcast_rpi
+
+Castle User Manual:
+
+Castle_User_Guide.doc  - classic MS Word format
+Castle_User_Guide.docx - modern MS Word format
+Castle_User_Guide.pdf - Adobe PDF format
+Castle.txt - plain text format
+
+
